@@ -1,0 +1,24 @@
+body {
+  display: flex;
+
+  flex-direction: column;
+  padding: 20px;
+  max-width: 400px;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid black;
+  border-color: black;
+  background-color: aliceblue;
+  margin: 20px auto;
+}
+
+button {
+  padding: 20px;
+  max-width: 400px;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid black;
+  border-color: black;
+  background-color: rgb(228, 224, 166);
+  margin: 20px auto;
+}
