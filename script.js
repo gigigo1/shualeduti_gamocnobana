@@ -8,40 +8,15 @@ function gamoicani() {
     console.log("sworia");
     const newMessage = "სწორია";
     const sworia = document.getElementById("sworia");
-    sworia.textContent = newMessage;
-    console.log("cade ufro dabali ricxvi");
-    const newMessage2 = " ";
-    const dabali = document.getElementById("dabali");
-    dabali.textContent = newMessage2;
-    console.log("cade ufro magali ricxvi");
-    const newMessage1 = " ";
-    const magali = document.getElementById("magali");
-    magali.textContent = newMessage1;
   } else if (gamocnoba < answer) {
     console.log("cade ufro magali ricxvi");
     const newMessage1 = "ცადე მაღალი";
-    const magali = document.getElementById("magali");
+    const magali = document.getElementById("sworia");
     magali.textContent = newMessage1;
-    console.log("cade ufro dabali ricxvi");
-    const newMessage2 = " ";
-    const dabali = document.getElementById("dabali");
-    dabali.textContent = newMessage2;
-    console.log("sworia");
-    const newMessage = " ";
-    const sworia = document.getElementById("sworia");
-    sworia.textContent = newMessage;
   } else {
     console.log("cade ufro dabali ricxvi");
     const newMessage2 = "ცადე დაბალი";
-    const dabali = document.getElementById("dabali");
+    const dabali = document.getElementById("sworia");
     dabali.textContent = newMessage2;
-    console.log("cade ufro magali ricxvi");
-    const newMessage1 = " ";
-    const magali = document.getElementById("magali");
-    magali.textContent = newMessage1;
-    console.log("sworia");
-    const newMessage = " ";
-    const sworia = document.getElementById("sworia");
-    sworia.textContent = newMessage;
   }
 }
