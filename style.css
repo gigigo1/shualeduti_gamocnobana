@@ -22,3 +22,9 @@ button {
   background-color: rgb(228, 224, 166);
   margin: 20px auto;
 }
+
+body > p {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
